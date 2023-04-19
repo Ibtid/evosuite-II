@@ -1,0 +1,80 @@
+* Starting client
+* Connecting to master process on port 20828
+* Analyzing classpath: 
+  - D:\Evosuite\Tutorial_Maven\target\test-classes
+  - D:\Evosuite\Tutorial_Maven\target\classes
+  - C:\Users\Ibtid\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\Ibtid\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class tutorial.LinkedListIterator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 11:40:48.885 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: D:\Evosuite\Tutorial_Maven\.evosuite\evosuite-seeds\tutorial.LinkedListIterator.seed
+* Loaded 0 tests from D:\Evosuite\Tutorial_Maven\.evosuite\evosuite-seeds\tutorial.LinkedListIterator.seed
+* Total number of test goals: 
+  - Line 10
+  - Branch 6
+  - Exception 0
+  - MutationFactory 4
+  - Output 4
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 6
+* Using seed 1668490846082
+* Starting evolution
+[MASTER] 11:41:09.888 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for tutorial.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for tutorial.LinkedListIterator due to org.evosuite.ga.ConstructionFailedException: Have no generator for tutorial.Node<java.lang.String> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 11:41:19.806 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for tutorial.Node due to org.evosuite.ga.ConstructionFailedException: Failed to add constructor for tutorial.LinkedListIterator due to org.evosuite.ga.ConstructionFailedException: Have no generator for tutorial.Node<java.lang.Object> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 11:41:31.228 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for tutorial.Node<java.lang.Object> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 11:41:41.935 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Failed to add constructor for tutorial.LinkedListIterator due to org.evosuite.ga.ConstructionFailedException: Have no generator for tutorial.Node<java.lang.String> canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 58s and 353 generations, 45768 statements, best individual has fitness: 1.3333333333333333
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 75%
+* Total number of goals: 4
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Generated 5 tests with total length 14
+* Resulting test suite's coverage: 97% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Compiling and checking tests
+* Writing JUnit test case 'LinkedListIterator_ESTest' to D:\Evosuite\Tutorial_Maven\.evosuite\tmp_2022_11_15_11_37_16\tests
+* Done!
+
